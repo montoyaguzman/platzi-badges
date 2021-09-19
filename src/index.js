@@ -35,4 +35,11 @@ const jsxElement2 = (<div>
 */
 
 // ReactDOM.render(qué, donde);
-ReactDOM.render(<Badge/>, container);
+ReactDOM.render(
+    <Badge firstName="Jose"
+        lastName="Montoya"
+        avatarUrl=""
+        jobTitle="Front end developer"
+        twitter="@montoyitag"
+    />
+    , container);
