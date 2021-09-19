@@ -9,16 +9,18 @@ container.appendChild(element);
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Badge from './components/Badge';
 
 const container = document.getElementById('app');
 
+/*
 const name = 'montoyitag';
 
-/* ejemplo 1 jsx */
+// ejemplo 1 jsx
 const htmlElement = React.createElement('h1', {}, 'Hola, Platzi Badges');
 const jsxElement = <h1>Hello, Platzi Badges - by {name}</h1>;
 
-/* ejemplo 1 jsx */
+// ejemplo 2 jsx
 const htmlElement2 = React.createElement(
     'div', 
     {}, 
@@ -29,6 +31,7 @@ const jsxElement2 = (<div>
     <h1>jose montoya</h1>
     <p>soy front end</p>
 </div>);
+*/
 
 // ReactDOM.render(qué, donde);
-ReactDOM.render(jsxElement2, container);
+ReactDOM.render(<Badge/>, container);
